@@ -1,0 +1,122 @@
+.quick{
+    margin-top: 150px;
+    height: 389px;
+    background: url('../Img/Bg1.png')  no-repeat center;
+}
+.quick-top-text{
+    text-align: center;
+    padding-top: 52px;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #22343D;
+    margin-bottom: 16px;
+}
+.quick-mid-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #22343D;
+    margin-bottom: 32px;
+}
+.part-1{
+    display: flex;
+    justify-content: space-around;    
+    color: #2F281E;
+}
+.quick-blog1{
+    display: flex;
+    align-items: center;
+}
+.quick-blog1 img{
+    margin-right: 16px;
+    width: 98px;
+}
+.quick-blog2{
+    display: flex;
+    align-items: center;
+}
+.quick-blog2 img{
+    margin-left: 16px;
+    width: 98px;
+}
+.blog-text1, .blog-text2{
+    background-color: #fff;
+    padding: 15px 24px;
+    box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+    border-radius: 26.5px;
+    position: relative;
+}
+.part-2{
+    display: flex;
+    margin-top: 24px;
+    justify-content: space-around;
+    color: #2F281E;
+}
+.quick-blog3{
+    display: flex;
+    align-items: center;
+}
+.quick-blog3 img{
+    margin-left: 16px;
+    width: 98px;
+}
+.quick-blog4{
+    display: flex;
+    align-items: center;
+}
+.quick-blog4 img{
+    margin-right: 16px;
+    width: 98px;
+}
+.blog-text3, .blog-text4{
+    background-color: #fff;
+    padding: 15px 24px;
+    box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+    border-radius: 26.5px;
+    position: relative;
+}
+/* /* .quick-blog1{
+    margin-right: 180px;
+} */
+.quick-blog3{
+    margin-left: 50px;
+}
+.quick-blog4{
+    margin-left: 50px;
+}
+.quick-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+}
+.quick-btn{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 15px 30px;
+    background: #02897A;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: ease 0.3s;
+    border: 1px solid #BCD0E5;
+}
+.quick-btn:hover{
+    background-color: #fff;
+    color: #02897A;
+}
+.quick-blog1,
+.quick-blog2,
+.quick-blog3,
+.quick-blog4{
+    transition: .3s ease;
+}
+.quick-blog1:hover,
+.quick-blog2:hover,
+.quick-blog3:hover,
+.quick-blog4:hover{
+    transform: scale(1.1);
+}

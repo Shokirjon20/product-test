@@ -1,0 +1,139 @@
+/* 
+    Main colors  
+    green - #02897A  
+    lightblue - #4D8DFF  
+    purple - #740A76  
+    dark - #22343D  
+    white - #ffffff  
+    orange - #F03E3D 
+    dark primary - #1F2E35
+    dark secondary - #30444E   
+    dark type - #475E69
+    lightgrey - #E4E9F3
+*/
+
+/*  Asosiy qism  */
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins';
+}
+
+.container{
+    width: 1110px;
+    margin: auto;
+}
+
+/* \Asosiy qism */
+
+/*  Navbar qism */
+
+.navbar{
+    display: flex;
+    margin: 23px 0 29px 0;
+    align-items: center;
+}
+.navbar .logo a{ 
+    align-items: center;
+    display: flex;
+    margin-right: 237px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 28px;
+    color: #173A56;
+}
+.navbar .logo a img{
+    margin-right: 16px;
+}
+
+.nav{
+    align-items: center;
+    display: flex;
+}
+.nav ul {
+    display: flex;
+    width: 379px;
+    height: 28px;
+    justify-content: space-around;
+    margin-right: 24px;
+}
+.nav ul li a{
+    font-size: 16px;
+    color: #22343D;
+    line-height: 28px;
+    font-weight: 400;
+    font-style: normal;
+    transition: ease 0.3s;
+}
+/* .nav ul li a:hover{
+    font-weight: 600;
+    font-style: normal;
+} */
+.nav ul li .active{
+    font-weight: 600;
+    font-style: normal;
+}
+.nav .btn{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.signin{
+    cursor: pointer;
+    border: 1px solid #BCD0E5;
+    background-color: #fff;
+    color: #173A56;
+    margin-right: 24px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 43px;
+    width: 102px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+    transition: ease 0.3s;
+}
+.signin:hover{
+    color: #fff;
+    background-color: #02897A;
+}
+.signup{
+    cursor: pointer;
+    background-color: #02897A;
+    color: #fff;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    height: 43px;
+    width: 110px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+    transition: ease 0.3s;
+}
+.signup:hover{
+    color: #02897A;
+    background-color: #fff;
+}
+.on-off{
+    margin-left: 30px;
+    width: 32px;
+    height: 32px;
+}
+
+/*  \navbar qism */
+
+.boshliq{
+    height: 200px;
+}
+
+/* RWD */
+

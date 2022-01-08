@@ -1,0 +1,112 @@
+.price{
+    margin-top: 150px;
+}
+.price-sub-text{
+    text-align: center;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 51px;
+    color: #22343D;
+    margin-bottom: 8px;
+}
+.price-sup-text{
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #22343D;
+    margin-bottom: 50px;
+}
+.price-block{
+    display: flex;
+    justify-content: space-between;
+}
+.price-box{
+    border: 1px solid #EFEFEF;
+    width: 322px;   
+    text-align: center;
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+.price-box:hover{
+    background-color: #02897A;
+    transform: scale(1.1);
+}
+.price-box:hover .price-name,
+.price-box:hover .price-description,
+.price-box:hover .price-plus,
+.price-box:hover .price-amount,
+.price-box:hover .price-currency,
+.price-box:hover .price-data {
+    color: #fff;
+}
+.price-box:hover .price-button{
+    background-color: #fff;
+    color: #02897A;
+}
+.price-name{
+    color: #22343D;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    margin: 24px 0 8px 0;
+}
+.price-description{
+    color: #22343D;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    margin-bottom: 16px;
+}
+.price-cost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price-amount{
+    margin-right: 8px;
+    font-weight: bold;
+    font-size: 76px;
+    line-height: 100px;
+    color: #02897A;
+}
+.price-currency{
+    text-align: left;
+    color: #02897A;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 4px;
+}
+.price-data{
+    color: #afafaf;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.price-plus{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #22343D;    
+}
+
+.price-plus .pp-1, .price-plus .pp-2{
+    margin-bottom: 16px;
+}
+.price-button{
+    margin: 38px 0 32px 0;
+    padding: 11px 19px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    cursor: pointer;
+    transition: ease 0.3s;
+    color: #fff;
+    border: 1px solid #BCD0E5;
+    background: #02897A;
+    border-radius: 8px;
+}

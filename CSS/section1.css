@@ -1,0 +1,59 @@
+.section-1{
+    margin-top: 114px;
+    height: 543px;
+    background: url('../Img/Bg.png') no-repeat center;
+}
+
+.section1-top-text{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #22343D;
+    margin: 114px 0 57px 0;
+}
+
+.section1-block{
+    display: flex;
+    justify-content: space-between;
+}
+.section1-block > div{
+    width: 25%;
+}
+.section1-box{
+    margin-right: 46px;
+}
+.section1-box-sub{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    margin: 30px 0 13px 0;
+    color: #22343D;
+}
+.section1-box-sup{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #22343D;
+}
+.section1-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+}
+.section1-btn{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 34px;
+    background: #02897A;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: ease 0.3s;
+    border: 1px solid #BCD0E5;
+}
+.section1-btn:hover{
+    background-color: #fff;
+    color: #02897A;
+}

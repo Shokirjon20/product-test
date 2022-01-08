@@ -1,0 +1,75 @@
+.client{
+    margin-top: 150px;   
+}
+.client-sub-text{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 57px;
+    color: #22343D;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.client-sup-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #22343D;
+    margin-bottom: 50px;
+}
+.client-block{
+    display: flex;
+    justify-content: space-between;
+}
+.client-box{
+    width: 327px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    border-radius: 5px;
+    transition: .3s ease;
+}
+.client-box:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 8px lightgrey;
+}
+.c-stars{
+    display: flex;
+    margin: 28px 0 0 28px;
+}
+.c-stars > div{
+    margin-right: 3.67px;
+}
+.full-stars,
+.empty-star{
+    color: #F3CD03;
+}
+.client-info{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin: 16px 26px;
+}
+.client-data{
+    display: flex;
+    align-items: center;
+}
+.client-img{
+    margin: 16px 16px 24px 26px;
+    
+}
+.client-description{
+    align-items: center;
+}
+.client-name{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #02897A;
+    margin-bottom: 10px;
+}
